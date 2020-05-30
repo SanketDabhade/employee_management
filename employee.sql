@@ -42,9 +42,9 @@ CREATE TABLE IF NOT EXISTS `emp` (
 --
 
 INSERT INTO `emp` (`emp_id`, `emp_name`, `emp_age`, `department`) VALUES
-(1, 'sanket dabhade', '23', 'Sales'),
-(2, 'mayur', '24', 'manage'),
-(4, 'sunad', '23', 'repairing');
+(1, 'john', '23', 'Sales'),
+(2, 'steve', '24', 'management'),
+(4, 'mac', '23', 'development');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
